@@ -13,7 +13,16 @@ promessa.then(resposta => {
     const titulo = document.querySelector("#tituloDoFilme");
     const imagem = document.querySelector("#imgDetalhes");
     const overview = document.querySelector("#overview");
+    const lancamento = document.querySelector("#lancamento");
+    lancamento.textContent = 'Data de lançamento: ' + arrumaData(resposta.data.release_date);
     titulo.textContent = resposta.data.title;
     imagem.src = montaURLImg(resposta.data.poster_path);
     overview.textContent = resposta.data.overview;
+    const generos = document.querySelector("#generos");
+    generos.textContent = 'Generos: ';
+    resposta.data.genres.forEach(element => {
+        generos.innerHTML += `<b>${element.name} </b>`;
+    });
+    const avaliacao = document.querySelector("#avaliacao");
+    avaliacao.textContent = 'Avaliação: ' + resposta.data.vote_average;
 });

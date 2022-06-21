@@ -20,7 +20,7 @@ const montaURLImg = path => 'https://image.tmdb.org/t/p/w500' + path;
         }
         card.forEach(elemento => {
             elemento.addEventListener("mouseenter", elemento => {
-                elemento.target.style.border = "thick solid #f09e9e";
+                elemento.target.style.border = "thick solid #E8833A";
             });
             elemento.addEventListener("mouseleave", elemento => {
                 elemento.target.style.border = "";
@@ -55,6 +55,10 @@ const montaURLImg = path => 'https://image.tmdb.org/t/p/w500' + path;
             overviewTendencias[i].textContent = data.results[i].overview;
             avaliacao[i].textContent = 'Avaliação: ' + data.results[i].vote_average;
             lancamento[i].textContent = 'Data de lançamento: ' + arrumaData(data.results[i].release_date);
+            tituloTendencias[i].addEventListener('dblclick', () => {carregaDetalhes(data.results[i].id)});
+            tituloTendencias[i].addEventListener("mouseenter", elemento => {elemento.target.style.textDecoration = "underline"});
+            tituloTendencias[i].addEventListener("mouseleave", elemento => {elemento.target.style.textDecoration = "none";});
+
         }
     };
 
