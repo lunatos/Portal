@@ -26,18 +26,20 @@ div > h1{
     padding-bottom: 35px;
 }
 
-.carousel-item iframe{
-    width: 100%;
-    height: 300px;
-}
-
-
-
 .lançamentos_area{
     border: 3px solid rgb(240, 158, 158);
     border-radius: 5px;
     margin-top: 10px;
     background-color: rgb(245, 179, 179);
+}
+
+.centraliza{
+    text-align: center;
+}
+
+.lançamentos_area img{
+    width: 300px;
+    height: 100%;
 }
 
 .em_dest{
@@ -84,6 +86,9 @@ button{
     margin-bottom: 10px;
 }
 
+.carousel-item p {
+    font-size: x-large;
+}
 
 .footer{
     text-align: center;
@@ -96,3 +101,25 @@ button{
     position: relative;
     left: 60px;
 }
+
+.pesquisa_area{
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(212, 146, 146);
+    border: 10px solid rgb(207, 113, 113);
+    height: 70vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow-y: scroll;
+}
+
+@media screen and (max-width:770px){
+    #pesquisar {
+        display: none;
+    }
+    #logo {
+        display: none;
+    }
+}
+

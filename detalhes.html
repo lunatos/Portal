@@ -6,216 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="estilos.css">
-    <title>Portal de Filmes</title>
+    <title>Detalhes</title>
     <script src="https://kit.fontawesome.com/f4c3e90124.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header class="container header"></header>
-    <main class="container main">
+    <header class="container header">
         <div class="row">
-            <div class="col-12 lançamentos_area">
-                <h1>Lançamentos</h1>
-                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <div class="row">
-                            <div class="col-6">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/CyiiEJRZjSU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            </div>
-                            <div class="col-6">
-                                <h2>Homem-Aranha: Sem Volta para Casa</h2>
-                                <p>Após os acontecimentos de Homem-Aranha: Longe de Casa, o mundo acaba sabendo a real identidade do Homem-Aranha, além de acharem que foi ele quem matou Mysterio. Peter acaba pedindo ajuda para o Doutor Estranho para que ele apague essa informação de sua identidade secreta do mundo, mas o feitiço da errado e estranhamente, vilões de outras versões do Homem-Aranha de outros universos acabam indo para seu mundo, dificultando a vida de Peter.</p>
-                                Diretor: Jon Watts Elenco: Tom Holland, Zendaya, Benedict Cumberbatch.
-                                Roteiro Chris McKenna, Steve Ditko
-                                16 de dezembro de 2021
-                                Avaliação: 4,5
-                            </div>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <div class="row">
-                            <div class="col-6">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/i7vcuKRi0KQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            </div>
-                            <div class="col-6">
-                                <h2>Sonic 2 - O Filme</h2>
-                                <p>Sonic 2 - O Filme é uma sequência dos acontecimentos do primeiro live-action de Sonic - O Filme, baseado no videogame de sucesso. Após conseguir se estabelecer em Green Hills, Sonic está pronto para mais liberdade e quer provar que tem o necessário para ser um herói de verdade. O terrível Robotnik está à procura de uma esmeralda com o poder de destruir civilizações. Sonic se une a um novo companheiro, Tails, e juntos eles embarcam em uma jornada para encontrar a esmeralda antes que ela caia nas mãos erradas.</p>
-                                Diretor: Jeff Fowler Roteiro Patrick Casey, Patrick Casey Elenco: Ben Schwartz, Idris Elba, Colleen O'Shaughnessey
-                                7 de abril de 2022 
-                                Avaliação: 4
-                            </div> 
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <div class="row">
-                            <div class="col-6">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/7vUQYzZ_UZc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            </div>
-                            <div class="col-6">
-                                <h2>Escolha ou Morra</h2>
-                                <p>Em Escolha ou Morra, uma estudante falida em busca de um prêmio de US $ 100.000, acha um jogo obscuro de computador de sobrevivência dos anos 80 e começa a jogar, com o objetivo de tentar vencê-lo para ganhar o prêmio principal. Após uma série de momentos inesperadamente aterrorizantes, ela logo percebe que não está mais jogando por dinheiro, mas por sua própria vida. E cada escolha mortal que ela é forçada a fazer, reforça ainda mais a premissa de que se você morrer no jogo, você definitivamente morre na vida real.</p>
-                                Diretor: Toby Meakins Elenco: Asa Butterfield, Eddie Marsan, Robert Englund Roteiro Simon Allen
-                                15 de abril de 2022
-                                Avaliação: 2,5
-                            </div>
-                        </div>
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
-                  </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 em_dest">
-                <h2>Em destaque</h2>
-                <div class="row card_area">
-                    <div class="col-12 col-sm-6 col-md-3 col-lg-3">
-                        <img src="img/cards/card1.jpg" alt="card1">
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-3 col-lg-3">
-                        <img src="img/cards/card2.jpg" alt="card2">
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-3 col-lg-3">
-                        <img src="img/cards/card3.jpg" alt="card3">
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-3 col-lg-3">
-                        <img src="img/cards/card4.jpg" alt="card4">
-                    </div>
-                </div>
-                <button type="button" class="btn btn-secondary btn-sm"><i class="fa-solid fa-plus"></i> Carregar mais filmes</button>
-            </div>
-
-        </div>
-        <div class="row">
-            <div class="col-12 aval_area">
-                <h2>Últimas avaliações</h2>
-                <div class="row av_area">
-                    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
-                         <div>
-                            <img src="img/aval/aval1.jpg" alt="aval1">
-                         </div>
-                         <div>
-                            <h3>Cleiton</h3>
-                            <p>Canja de galinha e Sonic 2 não fazem mal a ninguém. Filme divertido e interessante para quem gosta do game. Piadas descontraida, personagens caricatos e um FBI para lá de diferente. Sessão da tarde para crianças e adultos.</p>
-                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
-                         </div>
-                    </div>
-                    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
-                        <img src="img/aval/aval2.jpg" alt="aval2">
-                        <h3>Joana</h3>
-                        <p>Uau! Que filme foi esse? É algo surreal para os fãs desse universo "Miranha", ainda é difícil de acreditar que esse dia chegou... É uma sequência com um gradioso arco de conclusão, é de uma tamanha grandeza a sua representatividade de um público e as suas gerações até aqui! Tom Holland é absoluto! E hoje temos a certeza do seu exponencial como o Homem-Aranha deve ser! A participação dos seus antecessores foi simplesmente surreal! ...</p>
-                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                    </div>
-                    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
-                        <img src="img/aval/aval3.jpg" alt="aval3">
-                        <h3>Marcos</h3>
-                        <p>Tô impressionado como conseguirão fazer um filme tão ruim, pqp! amador demais. “Escolha ou morra!!!” Morre logo filme horrível!</p>
-                        <i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
-                    </div>
-                </div>
-                <button type="button" class="btn btn-secondary btn-sm"><i class="fa-solid fa-plus"></i> Carregar mais avaliações</button>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 ent_area">
-                <h2>Entrevistas & Making of</h2>
+            <div class="col-12 header_area">
                 <div class="row">
-                    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/LMZPnwz_dT0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <h4>Homem-Aranha: Sem Volta para Casa</h4>
-                        <p><strong>Diretor:</strong> Jon Watts</p>
-                        <p><strong>Roteiro:</strong> Chris McKenna, Steve Ditko</p>
-                        <p><strong>Estreia:</strong> 16/12/2021</p>
+                    <div class="col-2" id="logo">
+                        <img src="img/logo.png" alt="logo">
                     </div>
-                    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/tjsUt6YW9go" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <h4>Interstellar</h4>
-                        <p><strong>Diretor:</strong> Christopher Nolan</p>
-                        <p><strong>Roteiro:</strong> Jonathan Nolan, Christopher Nolan</p>
-                        <p><strong>Estreia:</strong> 06/11/2014</p>
+                    <div class="col-8">
+                        <nav class="nav nav-pills flex-column flex-sm-row">
+                            <a class="flex-sm-fill text-sm-center nav-link" href="/index.html">home</a>
+                            <a class="flex-sm-fill text-sm-center nav-link" href="#">destaques</a>
+                            <a class="flex-sm-fill text-sm-center nav-link" href="/pesquisa.html">pesquisar</a>
+                        </nav>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/On8S4X_j5Io" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <h4>Batman</h4>
-                        <p><strong>Diretor:</strong> Matt Reeves</p>
-                        <p><strong>Roteiro:</strong> Matt Reeves, Peter Craig</p>
-                        <p><strong>Estreia:</strong> 03/03/2022</p>
+                    <div class="col-2 search_area">
+                        <input type="search" class="form-control form-control-dark" placeholder="Pesquisar filme" aria-label="Search" id="pesquisar">
                     </div>
                 </div>
-                <button type="button" class="btn btn-secondary btn-sm"><i class="fa-solid fa-plus"></i> Carregar mais filmes</button>
             </div>
         </div>
+    </header>
+    <main class="container main">  
         <div class="row">
-            <div class="col-12 area_final">
+            <h1>Detalhes</h1>
+            <div class="col-12 detalhes_area">
                 <div class="row">
-                    <div class="col-8 novidades">
-                        <h2>Novidades</h2>
-                        <div class="row">
-                            <div class="col-4">
-                                <img src="img/nov/nov1.jpg" alt="nov1">
-                            </div>
-                            <div class="col-8">
-                                <p><strong>Elite: Ator que faz Iván é brasileiro e irmão de ator famoso na Netflix; conheça André Lamoglia</strong></p>
-                                <p>Com sequência já confirmada pela Netflix, Elite retornou ao catálogo do streaming nesta sexta-feira (8), trazendo acréscimos importantes ao elenco: além da atriz argentina Valentina Zenere, que se tornou uma das vilãs favoritas do público teen, os espectadores brasileiros têm um agrado especial com André Lamoglia. Intérprete de Iván na série espanhola, o ator carioca já passou antes pela Globo e pela Disney</p>
-                            </div>                            
-                        </div>
-                        <div class="row">
-                            <div class="col-4">
-                                <img src="img/nov/nov2.jpg" alt="nov2">
-                            </div>
-                            <div class="col-8">
-                                <p><strong>Better Call Saul: 6ª temporada vai mudar a maneira como você vê Breaking Bad</strong></p>
-                                <p>Better Call Saul, spin-off de Breaking Bad, estreou sua sexta e última temporada no catálogo da Netflix acompanhando o personagem Saul Goodman, interpretado por Bob Odenkirk. Os últimos episódios da produção derivada mudarão a maneira como os fãs observam Breaking Bad quando toda a série terminar, pelo menos é o que afirma o criador de Better Call Saul, Peter Gould.</p>
-                            </div>                            
-                        </div>
-                        <div class="row">
-                            <div class="col-4">
-                                <img src="img/nov/nov3.jpg" alt="nov3">
-                            </div>
-                            <div class="col-8">
-                                <p><strong>Stranger Things: Quando estreia a 4ª temporada na Netflix? Criadores revelam data em que a série vai acabar</strong></p>
-                                <p>Depois de muita espera, a 4ª temporada de Stranger Things, que será dividida em duas partes, finalmente recebeu uma data de lançamento no catálogo da Netflix: o volume 1 estreia dia 27 de maio e o volume 2 estreia dia 1 de julho. Além disso, foi anunciado que a recém-anunciada 5ª temporada vai ser a última da série acompanhando as crianças (nem mais tão crianças assim) em eventuras sobrenaturais. Ansiosos?</p>
-                            </div>                   
-                        </div>
-                    </div>
+                    <h2 id="tituloDoFilme"></h2>
+                </div>
+                <div class="row">
                     <div class="col-4">
-                        <div class="row sobre">               
-                            <h2>Sobre</h2>
-                            <p>Meu nome é Lucas Camarino Emerick de Almeida. Sou alucinado pelo cinema e sempre estou atento a qualquer notícia sobre o assunto. Este site que estou disponibilizando é uma boa fonte de materias ricas e notícias sobre todos os assuntos relacionados a filmes e séries.</p>
-                        </div>
-                        <div class="row editorial">
-                            <h2>Editorial</h2>
-                            <p><strong>Redação:</strong> Lucas Camarino Emerick de Almeida</p>
-                            <p><strong>Pesquisa:</strong> Lucas Camarino Emerick de Almeida</p>
-                            <p><strong>Gerente Geral:</strong> Lucas Camarino Emerick de Almeida</p>
-                            <p><strong>Redes sociais:</strong></p>
-                            <div class="redes">
-                                <i class="fa-brands fa-facebook"></i><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-twitter"></i>
-                            </div>                            
-                        </div>
-                    </div>                                  
+                        <img src="" alt="Carregando" id="imgDetalhes">
+                    </div>
+                    <div class="col-8">
+                        <p id="overview"></p>
+                    </div>
                 </div>
             </div>
         </div>
     </main>
-
-
     <footer class="container footer">
         <p>Copyright 2022 - Disciplina de Desenvolvimento de Interfaces Web - <strong>ICEI PUC Minas</strong><img src="img/logo.png" alt=""></p>
     </footer>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="detalhes.js" type="module"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>

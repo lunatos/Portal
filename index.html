@@ -14,20 +14,18 @@
         <div class="row">
             <div class="col-12 header_area">
                 <div class="row">
-                    <div class="col-2">
+                    <div class="col-2" id="logo">
                         <img src="img/logo.png" alt="logo">
                     </div>
                     <div class="col-8">
                         <nav class="nav nav-pills flex-column flex-sm-row">
-                            <a class="flex-sm-fill text-sm-center nav-link" href="#">lançamentos</a>
-                            <a class="flex-sm-fill text-sm-center nav-link" href="#">em destaque</a>
-                            <a class="flex-sm-fill text-sm-center nav-link" href="#">avaliações</a>
-                            <a class="flex-sm-fill text-sm-center nav-link" href="#">entrevistas & makingof</a>
-                            <a class="flex-sm-fill text-sm-center nav-link" href="#">novidades</a>
+                            <a class="flex-sm-fill text-sm-center nav-link" href="#">home</a>
+                            <a class="flex-sm-fill text-sm-center nav-link" href="/detalhes.html">destaques</a>
+                            <a class="flex-sm-fill text-sm-center nav-link" href="/pesquisa.html">pesquisar</a>
                         </nav>
                     </div>
                     <div class="col-2 search_area">
-                        <input type="search" class="form-control form-control-dark" placeholder="Pesquisar filme" aria-label="Search">
+                        <input type="search" class="form-control form-control-dark" placeholder="Pesquisar filme" aria-label="Search" id="pesquisar">
                     </div>
                 </div>
             </div>
@@ -36,7 +34,7 @@
     <main class="container main">
         <div class="row">
             <div class="col-12 lançamentos_area">
-                <h1>Lançamentos</h1>
+                <h1>Tendencias</h1>
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -46,44 +44,40 @@
                     <div class="carousel-inner">
                       <div class="carousel-item active">
                         <div class="row">
-                            <div class="col-6">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/CyiiEJRZjSU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <div class="col-6 col-sm-12 col-md-12 col-lg-6 centraliza">
+                                <img src="" alt="" class="trendImg">
                             </div>
-                            <div class="col-6">
-                                <h2>Homem-Aranha: Sem Volta para Casa</h2>
-                                <p>Após os acontecimentos de Homem-Aranha: Longe de Casa, o mundo acaba sabendo a real identidade do Homem-Aranha, além de acharem que foi ele quem matou Mysterio. Peter acaba pedindo ajuda para o Doutor Estranho para que ele apague essa informação de sua identidade secreta do mundo, mas o feitiço da errado e estranhamente, vilões de outras versões do Homem-Aranha de outros universos acabam indo para seu mundo, dificultando a vida de Peter.</p>
-                                Diretor: Jon Watts Elenco: Tom Holland, Zendaya, Benedict Cumberbatch.
-                                Roteiro Chris McKenna, Steve Ditko
-                                16 de dezembro de 2021
-                                Avaliação: 4,5
+                            <div class="col-6 col-sm-12 col-md-12 col-lg-6">
+                                <h2 class="trendTitle"></h2>
+                                <p class="trendOverview"></p>
+                                <p class="lancamento"></p>
+                                <p class="avaliacao"></p>
                             </div>
                         </div>
                       </div>
                       <div class="carousel-item">
                         <div class="row">
-                            <div class="col-6">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/i7vcuKRi0KQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <div class="col-6 centraliza">
+                                <img src="" alt="" class="trendImg">
                             </div>
                             <div class="col-6">
-                                <h2>Sonic 2 - O Filme</h2>
-                                <p>Sonic 2 - O Filme é uma sequência dos acontecimentos do primeiro live-action de Sonic - O Filme, baseado no videogame de sucesso. Após conseguir se estabelecer em Green Hills, Sonic está pronto para mais liberdade e quer provar que tem o necessário para ser um herói de verdade. O terrível Robotnik está à procura de uma esmeralda com o poder de destruir civilizações. Sonic se une a um novo companheiro, Tails, e juntos eles embarcam em uma jornada para encontrar a esmeralda antes que ela caia nas mãos erradas.</p>
-                                Diretor: Jeff Fowler Roteiro Patrick Casey, Patrick Casey Elenco: Ben Schwartz, Idris Elba, Colleen O'Shaughnessey
-                                7 de abril de 2022 
-                                Avaliação: 4
+                                <h2 class="trendTitle"></h2>
+                                <p class="trendOverview"></p>
+                                <p class="lancamento"></p>
+                                <p class="avaliacao"></p>
                             </div> 
                         </div>
                       </div>
                       <div class="carousel-item">
                         <div class="row">
-                            <div class="col-6">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/7vUQYzZ_UZc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <div class="col-6 centraliza">
+                                <img src="" alt="" class="trendImg">
                             </div>
                             <div class="col-6">
-                                <h2>Escolha ou Morra</h2>
-                                <p>Em Escolha ou Morra, uma estudante falida em busca de um prêmio de US $ 100.000, acha um jogo obscuro de computador de sobrevivência dos anos 80 e começa a jogar, com o objetivo de tentar vencê-lo para ganhar o prêmio principal. Após uma série de momentos inesperadamente aterrorizantes, ela logo percebe que não está mais jogando por dinheiro, mas por sua própria vida. E cada escolha mortal que ela é forçada a fazer, reforça ainda mais a premissa de que se você morrer no jogo, você definitivamente morre na vida real.</p>
-                                Diretor: Toby Meakins Elenco: Asa Butterfield, Eddie Marsan, Robert Englund Roteiro Simon Allen
-                                15 de abril de 2022
-                                Avaliação: 2,5
+                                <h2 class="trendTitle"></h2>
+                                <p class="trendOverview"></p>
+                                <p class="lancamento"></p>
+                                <p class="avaliacao"></p>
                             </div>
                         </div>
                       </div>
@@ -105,16 +99,16 @@
                 <h2>Em destaque</h2>
                 <div class="row card_area">
                     <div class="col-12 col-sm-6 col-md-3 col-lg-3">
-                        <img src="img/cards/card1.jpg" alt="card1">
+                        <img src="img/cards/card1.jpg" alt="card1" class="card">
                     </div>
                     <div class="col-12 col-sm-6 col-md-3 col-lg-3">
-                        <img src="img/cards/card2.jpg" alt="card2">
+                        <img src="img/cards/card2.jpg" alt="card2" class="card">
                     </div>
                     <div class="col-12 col-sm-6 col-md-3 col-lg-3">
-                        <img src="img/cards/card3.jpg" alt="card3">
+                        <img src="img/cards/card3.jpg" alt="card3" class="card">
                     </div>
                     <div class="col-12 col-sm-6 col-md-3 col-lg-3">
-                        <img src="img/cards/card4.jpg" alt="card4">
+                        <img src="img/cards/card4.jpg" alt="card4" class="card">
                     </div>
                 </div>
                 <button type="button" class="btn btn-secondary btn-sm"><i class="fa-solid fa-plus"></i> Carregar mais filmes</button>
@@ -180,65 +174,13 @@
                 <button type="button" class="btn btn-secondary btn-sm"><i class="fa-solid fa-plus"></i> Carregar mais filmes</button>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12 area_final">
-                <div class="row">
-                    <div class="col-8 novidades">
-                        <h2>Novidades</h2>
-                        <div class="row">
-                            <div class="col-4">
-                                <img src="img/nov/nov1.jpg" alt="nov1">
-                            </div>
-                            <div class="col-8">
-                                <p><strong>Elite: Ator que faz Iván é brasileiro e irmão de ator famoso na Netflix; conheça André Lamoglia</strong></p>
-                                <p>Com sequência já confirmada pela Netflix, Elite retornou ao catálogo do streaming nesta sexta-feira (8), trazendo acréscimos importantes ao elenco: além da atriz argentina Valentina Zenere, que se tornou uma das vilãs favoritas do público teen, os espectadores brasileiros têm um agrado especial com André Lamoglia. Intérprete de Iván na série espanhola, o ator carioca já passou antes pela Globo e pela Disney</p>
-                            </div>                            
-                        </div>
-                        <div class="row">
-                            <div class="col-4">
-                                <img src="img/nov/nov2.jpg" alt="nov2">
-                            </div>
-                            <div class="col-8">
-                                <p><strong>Better Call Saul: 6ª temporada vai mudar a maneira como você vê Breaking Bad</strong></p>
-                                <p>Better Call Saul, spin-off de Breaking Bad, estreou sua sexta e última temporada no catálogo da Netflix acompanhando o personagem Saul Goodman, interpretado por Bob Odenkirk. Os últimos episódios da produção derivada mudarão a maneira como os fãs observam Breaking Bad quando toda a série terminar, pelo menos é o que afirma o criador de Better Call Saul, Peter Gould.</p>
-                            </div>                            
-                        </div>
-                        <div class="row">
-                            <div class="col-4">
-                                <img src="img/nov/nov3.jpg" alt="nov3">
-                            </div>
-                            <div class="col-8">
-                                <p><strong>Stranger Things: Quando estreia a 4ª temporada na Netflix? Criadores revelam data em que a série vai acabar</strong></p>
-                                <p>Depois de muita espera, a 4ª temporada de Stranger Things, que será dividida em duas partes, finalmente recebeu uma data de lançamento no catálogo da Netflix: o volume 1 estreia dia 27 de maio e o volume 2 estreia dia 1 de julho. Além disso, foi anunciado que a recém-anunciada 5ª temporada vai ser a última da série acompanhando as crianças (nem mais tão crianças assim) em eventuras sobrenaturais. Ansiosos?</p>
-                            </div>                   
-                        </div>
-                    </div>
-                    <div class="col-4">
-                        <div class="row sobre">               
-                            <h2>Sobre</h2>
-                            <p>Meu nome é Lucas Camarino Emerick de Almeida. Sou alucinado pelo cinema e sempre estou atento a qualquer notícia sobre o assunto. Este site que estou disponibilizando é uma boa fonte de materias ricas e notícias sobre todos os assuntos relacionados a filmes e séries.</p>
-                        </div>
-                        <div class="row editorial">
-                            <h2>Editorial</h2>
-                            <p><strong>Redação:</strong> Lucas Camarino Emerick de Almeida</p>
-                            <p><strong>Pesquisa:</strong> Lucas Camarino Emerick de Almeida</p>
-                            <p><strong>Gerente Geral:</strong> Lucas Camarino Emerick de Almeida</p>
-                            <p><strong>Redes sociais:</strong></p>
-                            <div class="redes">
-                                <i class="fa-brands fa-facebook"></i><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-twitter"></i>
-                            </div>                            
-                        </div>
-                    </div>                                  
-                </div>
-            </div>
-        </div>
     </main>
 
 
     <footer class="container footer">
         <p>Copyright 2022 - Disciplina de Desenvolvimento de Interfaces Web - <strong>ICEI PUC Minas</strong><img src="img/logo.png" alt=""></p>
     </footer>
-    	
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="./index.js" type="module"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
